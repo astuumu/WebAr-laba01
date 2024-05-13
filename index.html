@@ -157,22 +157,22 @@
 
                 // Масив назв файлів .patt. Масив заповнюється в порядку додавання маркерів
                 // якщо замість .patt було додано баркод, на його місце в масив додається порожній рядок
-                const patternNames = ["pattern-marker.patt" ,""];
+                const patternNames = ["pattern-marker.patt" ,"", ""];
                 // Масив баркодів, заповнюється одночасно з масивом патернів
                 // якщо замість баркоду був доданий .patt, на його місце масив додається -1
-                const patternBarcode = [-1 ,2];
+                const patternBarcode = [-1 ,2, 3];
                 // Масив типів контенту кожного маркера, заповнюється значеннями: зображення, модель, відео
-                const modes = ["image" ,"image"];
+                const modes = ["image" ,"image", "image"];
                 // Масив файлів моделей, якщо немає моделі буде додано порожній рядок
-                const modelFiles = ["" ,""];
+                const modelFiles = ["" ,"", ""];
                 // Масив файлів зображень, якщо немає зображення буде додано також порожній рядок
-                const imageFiles = ["405.jpg" ,"author.jpg"];
+                const imageFiles = ["me.jpg" ,"author.jpg", "405.jpg"];
                 // Масив файлів відео, якщо немає відео буде ще один порожній рядок
-                const videoFiles = ["" ,""];
+                const videoFiles = ["" ,"", ""];
                 // Масив файлів аудіо, якщо немає аудіо буде так само порожній рядок
-                const audioFiles = ["IBM405.mp3" ,"author.mp3"];
+                const audioFiles = ["me.mp3", "author.mp3", "IBM405.mp3"];
                 // Масив опцій повтору аудіо та відео контенту, по дефолту для всіх буде false
-                const repeatOptions = ["false" ,"false"];
+                const repeatOptions = ["false" ,"false", "false"];
 
                 // Створюємо масив для всіх маркерів
                 const markerRoots = [];
